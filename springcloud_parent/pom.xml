@@ -49,14 +49,15 @@
     <!--添加子项目-->
     <modules>
         <module>registycenter</module>
-        <module>provider</module>
+        <!--<module>provider</module>
         <module>consumer</module>
         <module>provider1</module>
         <module>gateway</module>
         <module>ribbon</module>
         <module>feign</module>
-        <module>hystrix</module>
+        <module>hystrix</module>-->
         <module>configserver</module>
+        <module>configclient</module>
     </modules>
 
     <build>
