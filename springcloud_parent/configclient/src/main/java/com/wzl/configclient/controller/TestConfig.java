@@ -27,9 +27,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestConfig {
     @Value("${server.port}")
      private int port;
-
+    @Value("${wzl}")
+    private String test;
     @GetMapping(value = "/getport")
     public String getPort(){
-        return "this port == "+port;
+        //return "this port == "+port;
+        return test;
     }
 }

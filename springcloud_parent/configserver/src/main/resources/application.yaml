@@ -8,7 +8,7 @@ spring:
       server:
         git:
           uri: https://github.com/wuzhonglong/springcloud.git
-          search-paths: config
+          searchPaths: config
           username: wuzhonglong
           password: agony151314yn@#$
       label: master
