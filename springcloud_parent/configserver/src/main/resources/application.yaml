@@ -9,7 +9,7 @@ spring:
         git:
           uri: https://github.com/wuzhonglong/springcloud.git
           searchPaths: config
-          username: wuzhonglong
+          username: 804284713@qq.com
           password: agony151314yn@#$
       label: master
 eureka:
