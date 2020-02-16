@@ -7,12 +7,12 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/wuzhonglong/springcloud.git
+          uri: https://github.com/southwind9801/myspringclouddemo.git
           searchPaths: config
-          username: 804284713@qq.com
-          password: agony151314yn@#$
+          username: root
+          password: root
       label: master
 eureka:
   client:
-    service-url:
+    serviceUrl:
       defaultZone: http://localhost:8761/eureka/
